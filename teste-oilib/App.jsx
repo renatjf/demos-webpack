@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { PageOiDigital } from 'oilib'
-require('./app.css')
-
+import { PageOiDigital } from 'oilib';
 
 class App extends Component {
 

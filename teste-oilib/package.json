@@ -19,7 +19,9 @@
     "babel-preset-es2015": "6.x",
     "babel-preset-react": "6.x",
     "bundle-loader": "^0.5.4",
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "0.x",
+    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "0.x",
     "history": "^1.17.0",
     "html-webpack-plugin": "2.x",
@@ -36,7 +38,6 @@
     "webpack-dev-server": "1.x"
   },
   "devDependencies": {
-    "extract-text-webpack-plugin": "^1.0.1",
     "oilib": "^1.0.1-13"
   }
 }

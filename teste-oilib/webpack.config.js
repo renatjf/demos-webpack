@@ -27,10 +27,9 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new ExtractTextPlugin("/app.css", {
-            allChunks: true
-        })
+     plugins: [
+        new ExtractTextPlugin("PageOiDigital.css")
+
     ],
     postcss: [
         autoprefixer({
