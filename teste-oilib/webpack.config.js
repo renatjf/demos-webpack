@@ -4,14 +4,14 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 
 module.exports = {
-    entry: './main.jsx',
+    entry: './main.jsx', //jsx ou js inicial
     output: {
-        filename: 'bundle-oilib.js'
+        filename: 'bundle-oilib.js' //js compilado
     },
     module: {
         loaders: [
             {
-                test: /.jsx?$/,
+                test: /.js(x)?$/,
                 loader: 'babel',
                 exclude: /node_modules/,
                 query: {
@@ -27,8 +27,8 @@ module.exports = {
             }
         ]
     },
-     plugins: [
-        new ExtractTextPlugin("PageOiDigital.css")
+    plugins: [
+        new ExtractTextPlugin("main.css") //nome do css que vai ser gerado pelo build
 
     ],
     postcss: [
@@ -37,3 +37,6 @@ module.exports = {
         })
     ]
 };
+
+
+

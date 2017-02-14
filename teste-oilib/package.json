@@ -19,25 +19,20 @@
     "babel-preset-es2015": "6.x",
     "babel-preset-react": "6.x",
     "bundle-loader": "^0.5.4",
-    "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "0.x",
-    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "0.x",
     "history": "^1.17.0",
     "html-webpack-plugin": "2.x",
     "jquery": "3.x",
     "jsx-loader": "~0.13.2",
     "open-browser-webpack-plugin": "0.x",
-    "postcss-loader": "^1.3.0",
     "react": "15.x",
     "react-dom": "15.x",
     "react-router": "2.x",
-    "style-loader": "0.x",
     "url-loader": "~0.5.6",
     "webpack": "1.x",
     "webpack-dev-server": "1.x"
   },
   "devDependencies": {
-    "oilib": "^1.0.1-13"
+    "oilib": "^1.0.1-15"
   }
 }
